@@ -36,7 +36,10 @@ app = Client(
 
 @app.on_message(filters.text, group=-1)
 async def debug_logger(client, message):
-    print(f"🔍 RAW DEBUG: Msg '{message.text}' from {message.from_user.id if message.from_user else 'Unknown'} in {message.chat.type} ({message.chat.id})")
+   
+    user = message.from_user.first_name if message.from_user else "Unknown"
+print(f"🔍 RAW DEBUG: Msg '{message.text}' from {user} in {message.chat.type} ({message.chat.id})")
+
 
 @app.on_message(filters.command("ping"))
 async def ping_handler(client, message):
