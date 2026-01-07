@@ -1,0 +1,56 @@
+{
+  "stats": [
+    {
+      "_id": "global",
+      "messages_checked": 7,
+      "force_actions": 7
+    }
+  ],
+  "group_settings": [
+    {
+      "group_id": -1002852982796,
+      "channels": [
+        {
+          "username": "botzempire"
+        }
+      ]
+    }
+  ],
+  "aauth_users": [
+    {
+      "user_id": 6067877323,
+      "username": "KnwnAsGuru"
+    },
+    {
+      "user_id": 5158184800,
+      "username": "EvilxHell"
+    }
+  ],
+  "group_stats": [
+    {
+      "group_id": -1002852982796,
+      "messages": 7,
+      "actions": 7
+    }
+  ],
+  "users": [
+    {
+      "user_id": 7593147623
+    },
+    {
+      "user_id": 7538572906
+    },
+    {
+      "user_id": 7618467489
+    },
+    {
+      "user_id": 6322359719
+    },
+    {
+      "user_id": 6067877323
+    },
+    {
+      "user_id": 5158184800
+    }
+  ]
+}

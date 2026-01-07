@@ -1,0 +1,11 @@
+# Telegram
+pyrogram==2.0.106
+tgcrypto==1.2.5
+
+# MongoDB (COMPATIBLE PAIR)
+motor==3.1.2
+pymongo==4.3.3
+dnspython==2.4.2
+
+# Env
+python-dotenv==1.0.0
